@@ -1,0 +1,14 @@
+#pad {
+    border: 1px dotted orange;
+    width: 400px;
+}
+
+.hlight_red {
+    color: red;
+    font-size: 40px;
+}
+
+.hlight_blue {
+    color: blue;
+    font-size: 40px;
+}
