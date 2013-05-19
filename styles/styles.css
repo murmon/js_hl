@@ -3,6 +3,19 @@
     width: 400px;
 }
 
+body{
+    background-color: dimgrey;
+}
+
+div{
+    color: white;
+    font-family: courier;
+}
+
+span{
+    color: white;
+}
+
 .hlight_red {
     color: red;
     font-size: 40px;
