@@ -18,6 +18,34 @@
 </head>
 <body>
     <div id="pad" contentEditable="true" tabindex="0">input some tag[a] or numbers</div>
+
+    <div id="pad2" contentEditable="true" tabindex="0">input some tag[a] or numbers</div>
 </body>
 </html>
+        <script>
+            var h1 = new synt_hl('#pad');
+            h1.addElem({
+                re: '(&lt;a&gt;)',
+                by: "<span class='hlight_red'>$1</span>"
+            });
+
+            var h2 = new synt_hl('#pad2');
+
+            h2.addElem({
+                re: '(&lt;2a&gt;)',
+                by: "<span class='hlight_red'>$1</span>"
+            });
+//
+//            var h2 = synt_hl;
+//            addRegex({
+//                re: '(&lt;\/a&gt;)',
+//                by: "<span class='hlight_red'>$1</span>"
+//            });
+//
+//            addRegex({
+//                re: '(&lt;a&gt;)',
+//                by: "<span class='hlight_blue'>$1</span>"
+//            });
+
+        </script>
 
